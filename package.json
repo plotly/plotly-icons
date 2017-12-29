@@ -1,0 +1,19 @@
+{
+  "name": "plotly-icons",
+  "version": "1.0.0",
+  "description": "set of plotly icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plotly/plotly-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plotly/plotly-icons/issues"
+  },
+  "homepage": "https://github.com/plotly/plotly-icons#readme"
+}
