@@ -4,8 +4,10 @@
   "description": "set of plotly icons",
   "main": "lib/index.js",
   "scripts": {
+    "generate": "yarn run clean && node scripts/generate.js",
+    "clean": "rimraf build && rimraf src/plotly/*.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "mkdir lib & babel src --out-dir lib"
+    "prepublishOnly": "mkdirp lib && yarn generate && babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,13 @@
     "mdi-react": "^2.1.19"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-cli": "^6.10.1",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.1"
   }
 }
