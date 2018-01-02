@@ -1,3 +1,9 @@
-node_modules
 lib
 .git
+node_modules
+build
+publish/*
+!publish/package.json
+.idea/
+.idea/*
+.DS_Store
