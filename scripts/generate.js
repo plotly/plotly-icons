@@ -31,5 +31,5 @@ const ${name}Icon = ({ width = 24, height = 24, viewBox = '0 0 24 24', className
 export default ${name}Icon;
 `;
 
-  fs.writeFileSync(`${__dirname}/../build/${name}Icon.js`, fileContent);
+  fs.writeFileSync(`${__dirname}/../src/plotly/${name}Icon.js`, fileContent);
 }
