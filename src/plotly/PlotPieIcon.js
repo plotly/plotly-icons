@@ -1,9 +1,9 @@
 import React from 'react';
-const PlotPieIcon = ({ width = 24, height = 24, viewBox = '0 0 24 24', className, children, ...props }) => {
+const PlotPieIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
-    <svg {...props} width={width} height={height} viewBox={viewBox} className={classes}>
+    <svg {...props} width="32" height="32" viewBox="0 0 32 32" className={classes}>
       <path d="M14.438 2.5c-8 0.063-14.438 6.563-14.438 14.5 0 8.063 6.5 14.563 14.5 14.563 3.5 0 6.625-1.188 9.125-3.188l-9.188-10.813zM31.313 15.563c0-0.188 0-0.375 0-0.563 0-8.063-6.5-14.563-14.563-14.563 0 0-0.063 0-0.063 0v15.125zM32 17.75h-14.563l9.125 10.813c3.188-2.563 5.313-6.438 5.438-10.813z" />
     </svg>
   );

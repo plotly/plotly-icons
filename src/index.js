@@ -1,46 +1,46 @@
 // Material Design Icons
+import AccountIcon from 'mdi-react/AccountIcon';
 import AngleDownIcon from 'mdi-react/ChevronDownIcon';
-import AngleRightIcon from 'mdi-react/ChevronRightIcon';
 import AngleLeftIcon from 'mdi-react/ChevronLeftIcon';
+import AngleRightIcon from 'mdi-react/ChevronRightIcon';
 import AngleUpIcon from 'mdi-react/ChevronUpIcon';
+import AnimationIcon from 'mdi-react/AnimationIcon';
+import ArrowDownIcon from 'mdi-react/ArrowDownIcon';
+import ArrowLeftIcon from 'mdi-react/ArrowLeftIcon';
+import ArrowRightIcon from 'mdi-react/ArrowRightIcon';
+import ArrowUpIcon from 'mdi-react/ArrowUpIcon';
+import BarsIcon from 'mdi-react/MenuIcon';
+import BellIcon from 'mdi-react/BellIcon';
+import BookmarkIcon from 'mdi-react/BookmarkIcon';
 import CarretDownIcon from 'mdi-react/MenuDownIcon';
 import CarretUpIcon from 'mdi-react/MenuUpIcon';
-import CloseIcon from 'mdi-react/CloseIcon';
-import CogIcon from 'mdi-react/SettingsIcon';
-import LinkIcon from 'mdi-react/LinkVariantIcon';
-import QuestionIcon from 'mdi-react/HelpCircleIcon';
-import CheckIcon from 'mdi-react/CheckIcon';
-import PlusIcon from 'mdi-react/PlusIcon';
 import ChartLineIcon from 'mdi-react/ChartLineIcon';
-import FormatAlignCenterIcon from 'mdi-react/FormatAlignCenterIcon';
-import FormatAlignRightIcon from 'mdi-react/FormatAlignRightIcon';
-import FormatAlignLeftIcon from 'mdi-react/FormatAlignLeftIcon';
-import AnimationIcon from 'mdi-react/AnimationIcon';
-import ArrowLeftIcon from 'mdi-react/ArrowLeftIcon';
-import ArrowUpIcon from 'mdi-react/ArrowUpIcon';
-import ArrowDownIcon from 'mdi-react/ArrowDownIcon';
-import BarsIcon from 'mdi-react/MenuIcon';
-import BookmarkIcon from 'mdi-react/BookmarkIcon';
-import ChatOutlineIcon from 'mdi-react/MessageOutlineIcon';
 import ChatIcon from 'mdi-react/MessageIcon';
+import ChatOutlineIcon from 'mdi-react/MessageOutlineIcon';
 import CheckboxMarkedOutlineIcon from 'mdi-react/CheckboxMarkedOutlineIcon';
+import CheckIcon from 'mdi-react/CheckIcon';
+import CloseIcon from 'mdi-react/CloseIcon';
 import CloudIcon from 'mdi-react/CloudIcon';
 import CodeBracesIcon from 'mdi-react/CodeBracesIcon';
+import CogIcon from 'mdi-react/SettingsIcon';
 import CollaboratorIcon from 'mdi-react/AccountMultipleIcon';
 import ContentCopyIcon from 'mdi-react/ContentCopyIcon';
 import CreditCardIcon from 'mdi-react/CreditCardIcon';
-import FileDocumentIcon from 'mdi-react/FileDocumentIcon';
 import DownloadIcon from 'mdi-react/DownloadIcon';
 import EditIcon from 'mdi-react/PencilIcon';
 import EnvelopeIcon from 'mdi-react/EmailIcon';
 import EnvelopeOutlineIcon from 'mdi-react/EmailOutlineIcon';
 import ExternalLinkIcon from 'mdi-react/OpenInNewIcon';
 import FacebookIcon from 'mdi-react/FacebookBoxIcon';
+import FileDocumentIcon from 'mdi-react/FileDocumentIcon';
 import FileIcon from 'mdi-react/FileIcon';
 import FileMultipleIcon from 'mdi-react/FileMultipleIcon';
 import FilterIcon from 'mdi-react/FilterIcon';
 import FolderIcon from 'mdi-react/FolderIcon';
 import FolderOpenIcon from 'mdi-react/FolderOpenIcon';
+import FormatAlignCenterIcon from 'mdi-react/FormatAlignCenterIcon';
+import FormatAlignLeftIcon from 'mdi-react/FormatAlignLeftIcon';
+import FormatAlignRightIcon from 'mdi-react/FormatAlignRightIcon';
 import FullViewIcon from 'mdi-react/FullscreenIcon';
 import GitHubIcon from 'mdi-react/GithubCircleIcon';
 import GlobeIcon from 'mdi-react/EarthIcon';
@@ -49,19 +49,20 @@ import GraphIcon from 'mdi-react/PollIcon';
 import GridIcon from 'mdi-react/GridIcon';
 import HeartIcon from 'mdi-react/HeartIcon';
 import ImportIcon from 'mdi-react/ImportIcon';
-import InboxArrowIcon from 'mdi-react/ImportArrowIcon';
+import InboxArrowIcon from 'mdi-react/InboxArrowDownIcon';
 import InboxIcon from 'mdi-react/InboxIcon';
 import InstagramIcon from 'mdi-react/InstagramIcon';
-import LinkVariantIcon from 'mdi-react/LinkVariantIcon';
 import LinkedInIcon from 'mdi-react/LinkedinBoxIcon';
+import LinkIcon from 'mdi-react/LinkVariantIcon';
+import LinkVariantIcon from 'mdi-react/LinkVariantIcon';
 import ListViewIcon from 'mdi-react/ViewListIcon';
 import LockIcon from 'mdi-react/LockIcon';
 import MinusIcon from 'mdi-react/MinusIcon';
-import BellIcon from 'mdi-react/BellIcon';
 import OfficeIcon from 'mdi-react/DomainIcon';
-import AccountIcon from 'mdi-react/AccountIcon';
 import PhoneIcon from 'mdi-react/PhoneIcon';
 import PlayIcon from 'mdi-react/PlayIcon';
+import PlusIcon from 'mdi-react/PlusIcon';
+import QuestionIcon from 'mdi-react/HelpCircleIcon';
 import RecentIcon from 'mdi-react/ClockIcon';
 import RefreshIcon from 'mdi-react/RefreshIcon';
 import ReorderHorizontalIcon from 'mdi-react/ReorderHorizontalIcon';
@@ -82,8 +83,8 @@ import SuitcaseIcon from 'mdi-react/BriefcaseIcon';
 import TableIcon from 'mdi-react/TableIcon';
 import TagIcon from 'mdi-react/TagIcon';
 import TagOutlineIcon from 'mdi-react/TagOutlineIcon';
-import TalkChatMultipleIcon from 'mdi-react/ForumIcon';
 import TalkChatIcon from 'mdi-react/MessageIcon';
+import TalkChatMultipleIcon from 'mdi-react/ForumIcon';
 import TeamIcon from 'mdi-react/AccountMultipleOutlineIcon';
 import ThemeIcon from 'mdi-react/FormatPaintIcon';
 import ThumnailViewIcon from 'mdi-react/AppsIcon';
@@ -92,12 +93,12 @@ import TooltipTextIcon from 'mdi-react/TooltipTextIcon';
 import TrashIcon from 'mdi-react/DeleteIcon';
 import TwitterIcon from 'mdi-react/TwitterIcon';
 import UnlockIcon from 'mdi-react/LockOpenIcon';
-import UploadIcon from 'mdi-react/UploadIcon';
 import UploadFileIcon from 'mdi-react/FileExportIcon';
+import UploadIcon from 'mdi-react/UploadIcon';
 import VideoIcon from 'mdi-react/VideoIcon';
 import WrenchIcon from 'mdi-react/WrenchIcon';
 
-// Plotly/Custom Icons
+// Plotly Icons / Custom Icons
 import AutoscaleIcon from './plotly/AutoscaleIcon';
 import EmbedIconIcon from './plotly/EmbedIconIcon';
 import FilingCabinetIcon from './plotly/FilingCabinetIcon';
@@ -164,118 +165,83 @@ import ZoomboxIcon from './plotly/ZoomboxIcon';
 import ZoomMinusIcon from './plotly/ZoomMinusIcon';
 import ZoomPlusIcon from './plotly/ZoomPlusIcon';
 
-export {
+export const All = [
+  AccountIcon,
   AngleDownIcon,
-  AngleRightIcon,
   AngleLeftIcon,
+  AngleRightIcon,
   AngleUpIcon,
+  AnimationIcon,
+  ArrowDownIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  ArrowUpIcon,
+  AutoscaleIcon,
+  BarsIcon,
+  BellIcon,
+  BookmarkIcon,
   CarretDownIcon,
   CarretUpIcon,
-  CloseIcon,
-  CogIcon,
-  LinkIcon,
-  QuestionIcon,
-  CheckIcon,
-  PlusIcon,
   ChartLineIcon,
-  FormatAlignCenterIcon,
-  FormatAlignRightIcon,
-  FormatAlignLeftIcon,
-  AnimationIcon,
-  ArrowLeftIcon,
-  ArrowUpIcon,
-  ArrowDownIcon,
-  BarsIcon,
-  BookmarkIcon,
-  ChatOutlineIcon,
   ChatIcon,
+  ChatOutlineIcon,
   CheckboxMarkedOutlineIcon,
+  CheckIcon,
+  CloseIcon,
   CloudIcon,
   CodeBracesIcon,
+  CogIcon,
   CollaboratorIcon,
   ContentCopyIcon,
   CreditCardIcon,
-  FileDocumentIcon,
   DownloadIcon,
   EditIcon,
+  EmbedIconIcon,
   EnvelopeIcon,
   EnvelopeOutlineIcon,
   ExternalLinkIcon,
   FacebookIcon,
+  FileDocumentIcon,
   FileIcon,
   FileMultipleIcon,
+  FilingCabinetIcon,
   FilterIcon,
   FolderIcon,
   FolderOpenIcon,
+  ForkEditIcon,
+  ForkIcon,
+  FormatAlignCenterIcon,
+  FormatAlignLeftIcon,
+  FormatAlignRightIcon,
   FullViewIcon,
+  GearsSettingIcon,
   GitHubIcon,
   GlobeIcon,
   GooglePlusIcon,
   GraphIcon,
+  GridIcon,
   HeartIcon,
   ImportIcon,
   InboxArrowIcon,
   InboxIcon,
   InstagramIcon,
-  LinkVariantIcon,
   LinkedInIcon,
+  LinkIcon,
+  LinkVariantIcon,
   ListViewIcon,
   LockIcon,
-  MinusIcon,
-  BellIcon,
-  OfficeIcon,
-  AccountIcon,
-  PhoneIcon,
-  PlayIcon,
-  RecentIcon,
-  RefreshIcon,
-  ReorderHorizontalIcon,
-  ReorderVerticalIcon,
-  ResizeDownIcon,
-  ResizeUpIcon,
-  RevisionsIcon,
-  RotateLeftIcon,
-  RotateRightIcon,
-  SaveIcon,
-  SearchIcon,
-  ShareIcon,
-  ShareVariantIcon,
-  SignOutIcon,
-  SquareIcon,
-  StarIcon,
-  SuitcaseIcon,
-  TableIcon,
-  TagIcon,
-  TagOutlineIcon,
-  TalkChatMultipleIcon,
-  TalkChatIcon,
-  TeamIcon,
-  ThemeIcon,
-  ThumnailViewIcon,
-  TooltipIcon,
-  TooltipTextIcon,
-  TrashIcon,
-  TwitterIcon,
-  UnlockIcon,
-  UploadIcon,
-  UploadFileIcon,
-  VideoIcon,
-  WrenchIcon,
-  AutoscaleIcon,
-  EmbedIconIcon,
-  FilingCabinetIcon,
-  ForkEditIcon,
-  ForkIcon,
-  GearsSettingIcon,
-  GridIcon,
   LogoAmexIcon,
   LogoMastercardIcon,
   LogoStripeIcon,
   LogoVisaIcon,
+  MinusIcon,
   NotebookIpIcon,
   NotebookMIconIcon,
   NotebookRIcon,
+  OfficeIcon,
   PanIcon,
+  PhoneIcon,
+  PlayIcon,
   Plot2dHistIcon,
   Plot2dHistogramIcon,
   Plot3dLineIcon,
@@ -319,11 +285,213 @@ export {
   PlotTernaryContourIcon,
   PlotTernaryScatterIcon,
   PlotTimeSeriesIcon,
+  PlusIcon,
+  QuestionIcon,
+  RecentIcon,
+  RefreshIcon,
+  ReorderHorizontalIcon,
+  ReorderVerticalIcon,
+  ResizeDownIcon,
+  ResizeUpIcon,
+  RevisionsIcon,
+  RotateLeftIcon,
+  RotateRightIcon,
   SankeyIcon,
+  SaveIcon,
   ScriptIcon,
+  SearchIcon,
+  ShareIcon,
+  ShareVariantIcon,
+  SignOutIcon,
   SpikelineIcon,
+  SquareIcon,
+  StarIcon,
+  SuitcaseIcon,
+  TableIcon,
+  TagIcon,
+  TagOutlineIcon,
+  TalkChatIcon,
+  TalkChatMultipleIcon,
+  TeamIcon,
+  ThemeIcon,
+  ThumnailViewIcon,
   TooltipBasicIcon,
   TooltipCompareIcon,
+  TooltipIcon,
+  TooltipTextIcon,
+  TrashIcon,
+  TwitterIcon,
+  UnlockIcon,
+  UploadFileIcon,
+  UploadIcon,
+  VideoIcon,
+  WrenchIcon,
+  ZoomboxIcon,
+  ZoomMinusIcon,
+  ZoomPlusIcon,
+];
+
+export {
+  AccountIcon,
+  AngleDownIcon,
+  AngleLeftIcon,
+  AngleRightIcon,
+  AngleUpIcon,
+  AnimationIcon,
+  ArrowDownIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  ArrowUpIcon,
+  AutoscaleIcon,
+  BarsIcon,
+  BellIcon,
+  BookmarkIcon,
+  CarretDownIcon,
+  CarretUpIcon,
+  ChartLineIcon,
+  ChatIcon,
+  ChatOutlineIcon,
+  CheckboxMarkedOutlineIcon,
+  CheckIcon,
+  CloseIcon,
+  CloudIcon,
+  CodeBracesIcon,
+  CogIcon,
+  CollaboratorIcon,
+  ContentCopyIcon,
+  CreditCardIcon,
+  DownloadIcon,
+  EditIcon,
+  EmbedIconIcon,
+  EnvelopeIcon,
+  EnvelopeOutlineIcon,
+  ExternalLinkIcon,
+  FacebookIcon,
+  FileDocumentIcon,
+  FileIcon,
+  FileMultipleIcon,
+  FilingCabinetIcon,
+  FilterIcon,
+  FolderIcon,
+  FolderOpenIcon,
+  ForkEditIcon,
+  ForkIcon,
+  FormatAlignCenterIcon,
+  FormatAlignLeftIcon,
+  FormatAlignRightIcon,
+  FullViewIcon,
+  GearsSettingIcon,
+  GitHubIcon,
+  GlobeIcon,
+  GooglePlusIcon,
+  GraphIcon,
+  GridIcon,
+  HeartIcon,
+  ImportIcon,
+  InboxArrowIcon,
+  InboxIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  LinkIcon,
+  LinkVariantIcon,
+  ListViewIcon,
+  LockIcon,
+  LogoAmexIcon,
+  LogoMastercardIcon,
+  LogoStripeIcon,
+  LogoVisaIcon,
+  MinusIcon,
+  NotebookIpIcon,
+  NotebookMIconIcon,
+  NotebookRIcon,
+  OfficeIcon,
+  PanIcon,
+  PhoneIcon,
+  PlayIcon,
+  Plot2dHistIcon,
+  Plot2dHistogramIcon,
+  Plot3dLineIcon,
+  Plot3dScatterIcon,
+  Plot3dSurfaceIcon,
+  PlotAreaIcon,
+  PlotAreaStackedIcon,
+  PlotBarAxesIcon,
+  PlotBarChartIcon,
+  PlotBarIcon,
+  PlotBoxIcon,
+  PlotBubblesIcon,
+  PlotCandleIcon,
+  PlotCarpetIcon,
+  PlotChoroplethIcon,
+  PlotContourIcon,
+  PlotCountryLineChartIcon,
+  PlotDHistogramBricksIcon,
+  PlotDonutIcon,
+  PlotErrorBarsIcon,
+  PlotFitIcon,
+  PlotHeatmapIcon,
+  PlotHistIcon,
+  PlotHistogramIcon,
+  PlotIcon,
+  PlotLineIcon,
+  PlotLineMarkersIcon,
+  PlotMapboxIcon,
+  PlotMesh3dIcon,
+  PlotOhlcIcon,
+  PlotParcoordsIcon,
+  PlotPieChartIcon,
+  PlotPieIcon,
+  PlotPieShadedIcon,
+  PlotRadarIcon,
+  PlotScatterAxesIcon,
+  PlotScatterChartIcon,
+  PlotScatterIcon,
+  PlotScatterMatrixIcon,
+  PlotStackedAreaIcon,
+  PlotTernaryContourIcon,
+  PlotTernaryScatterIcon,
+  PlotTimeSeriesIcon,
+  PlusIcon,
+  QuestionIcon,
+  RecentIcon,
+  RefreshIcon,
+  ReorderHorizontalIcon,
+  ReorderVerticalIcon,
+  ResizeDownIcon,
+  ResizeUpIcon,
+  RevisionsIcon,
+  RotateLeftIcon,
+  RotateRightIcon,
+  SankeyIcon,
+  SaveIcon,
+  ScriptIcon,
+  SearchIcon,
+  ShareIcon,
+  ShareVariantIcon,
+  SignOutIcon,
+  SpikelineIcon,
+  SquareIcon,
+  StarIcon,
+  SuitcaseIcon,
+  TableIcon,
+  TagIcon,
+  TagOutlineIcon,
+  TalkChatIcon,
+  TalkChatMultipleIcon,
+  TeamIcon,
+  ThemeIcon,
+  ThumnailViewIcon,
+  TooltipBasicIcon,
+  TooltipCompareIcon,
+  TooltipIcon,
+  TooltipTextIcon,
+  TrashIcon,
+  TwitterIcon,
+  UnlockIcon,
+  UploadFileIcon,
+  UploadIcon,
+  VideoIcon,
+  WrenchIcon,
   ZoomboxIcon,
   ZoomMinusIcon,
   ZoomPlusIcon,
