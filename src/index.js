@@ -135,7 +135,6 @@ import PlotDonutIcon from './plotly/PlotDonutIcon';
 import PlotErrorBarsIcon from './plotly/PlotErrorBarsIcon';
 import PlotFitIcon from './plotly/PlotFitIcon';
 import PlotHeatmapIcon from './plotly/PlotHeatmapIcon';
-import PlotHistIcon from './plotly/PlotHistIcon';
 import PlotHistogramIcon from './plotly/PlotHistogramIcon';
 import PlotIcon from './plotly/PlotIcon';
 import PlotLineIcon from './plotly/PlotLineIcon';
@@ -264,7 +263,6 @@ export const All = [
   PlotErrorBarsIcon,
   PlotFitIcon,
   PlotHeatmapIcon,
-  PlotHistIcon,
   PlotHistogramIcon,
   PlotIcon,
   PlotLineIcon,
@@ -430,7 +428,6 @@ export {
   PlotErrorBarsIcon,
   PlotFitIcon,
   PlotHeatmapIcon,
-  PlotHistIcon,
   PlotHistogramIcon,
   PlotIcon,
   PlotLineIcon,
