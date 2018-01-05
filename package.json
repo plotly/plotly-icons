@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/plotly/plotly-icons#readme",
   "dependencies": {
-    "mdi-react": "^2.1.19"
+    "mdi-react": "^2.1.19",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",

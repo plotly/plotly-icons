@@ -1,10 +1,10 @@
 import React from 'react';
-const PlotIcon = ({ width = 24, height = 24, viewBox = '0 0 24 24', className, children, ...props }) => {
+const PlotIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
-    <svg {...props} width={width} height={height} viewBox={viewBox} className={classes}>
-      <path d="M 16,2l-5.5,5.5l-3.5-3.5l-5,5l0,3 l 5-5l 3.5,3.5l 5.5-5.5L 16,2 zM 2,14L 2,3.5L 2,2L 2,0L 0,0L 0,8L 0,16L 7.531,16L 16.062,16L 16.062,14L 14.062,14 z" />
+    <svg {...props} width="32" height="32" viewBox="0 0 32 32" className={classes}>
+      <path d="M31.875 4.063l-10.938 10.938-7-6.938-9.938 9.938v6l9.938-10 7 7 10.938-11zM4 27.938v-27.875h-4v31.875h32v-4z" />
     </svg>
   );
 };

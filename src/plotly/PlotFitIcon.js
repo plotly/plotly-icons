@@ -1,10 +1,10 @@
 import React from 'react';
-const PlotFitIcon = ({ width = 24, height = 24, viewBox = '0 0 24 24', className, children, ...props }) => {
+const PlotFitIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
-    <svg {...props} width={width} height={height} viewBox={viewBox} className={classes}>
-      <path d="M 1,10.5A2,2 0 1 0 5,10.5A2,2 0 1 0 1,10.5zM 7,2A2,2 0 1 0 11,2A2,2 0 1 0 7,2zM 19,5.5A2,2 0 1 0 23,5.5A2,2 0 1 0 19,5.5zM 13,14A2,2 0 1 0 17,14A2,2 0 1 0 13,14zM 24,13.006L0,6.006L0,3L 24,10 z" />
+    <svg {...props} width="32" height="32" viewBox="0 0 32 32" className={classes}>
+      <path d="M1.313 19.313c0 1.5 1.188 2.688 2.688 2.688s2.688-1.188 2.688-2.688c0-1.438-1.188-2.625-2.688-2.625s-2.688 1.188-2.688 2.625zM9.313 8c0 1.5 1.188 2.688 2.688 2.688s2.688-1.188 2.688-2.688c0-1.5-1.188-2.688-2.688-2.688s-2.688 1.188-2.688 2.688zM25.313 12.688c0 1.438 1.188 2.625 2.688 2.625s2.688-1.188 2.688-2.625c0-1.5-1.188-2.688-2.688-2.688s-2.688 1.188-2.688 2.688zM17.313 24c0 1.5 1.188 2.688 2.688 2.688s2.688-1.188 2.688-2.688c0-1.5-1.188-2.688-2.688-2.688s-2.688 1.188-2.688 2.688zM32 22.688l-32-9.375v-4l32 9.375z" />
     </svg>
   );
 };
