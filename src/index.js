@@ -143,7 +143,6 @@ import PlotMapboxIcon from './plotly/PlotMapboxIcon';
 import PlotMesh3dIcon from './plotly/PlotMesh3dIcon';
 import PlotOhlcIcon from './plotly/PlotOhlcIcon';
 import PlotParcoordsIcon from './plotly/PlotParcoordsIcon';
-import PlotPieChartIcon from './plotly/PlotPieChartIcon';
 import PlotPieIcon from './plotly/PlotPieIcon';
 import PlotPieShadedIcon from './plotly/PlotPieShadedIcon';
 import PlotRadarIcon from './plotly/PlotRadarIcon';
@@ -271,7 +270,6 @@ export const All = [
   PlotMesh3dIcon,
   PlotOhlcIcon,
   PlotParcoordsIcon,
-  PlotPieChartIcon,
   PlotPieIcon,
   PlotPieShadedIcon,
   PlotRadarIcon,
@@ -436,7 +434,6 @@ export {
   PlotMesh3dIcon,
   PlotOhlcIcon,
   PlotParcoordsIcon,
-  PlotPieChartIcon,
   PlotPieIcon,
   PlotPieShadedIcon,
   PlotRadarIcon,
