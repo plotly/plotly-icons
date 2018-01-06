@@ -121,7 +121,6 @@ import Plot3dSurfaceIcon from './plotly/Plot3dSurfaceIcon';
 import PlotAreaIcon from './plotly/PlotAreaIcon';
 import PlotAreaStackedIcon from './plotly/PlotAreaStackedIcon';
 import PlotBarAxesIcon from './plotly/PlotBarAxesIcon';
-import PlotBarChartIcon from './plotly/PlotBarChartIcon';
 import PlotBarIcon from './plotly/PlotBarIcon';
 import PlotBoxIcon from './plotly/PlotBoxIcon';
 import PlotBubblesIcon from './plotly/PlotBubblesIcon';
@@ -248,7 +247,6 @@ export const All = [
   PlotAreaIcon,
   PlotAreaStackedIcon,
   PlotBarAxesIcon,
-  PlotBarChartIcon,
   PlotBarIcon,
   PlotBoxIcon,
   PlotBubblesIcon,
@@ -412,7 +410,6 @@ export {
   PlotAreaIcon,
   PlotAreaStackedIcon,
   PlotBarAxesIcon,
-  PlotBarChartIcon,
   PlotBarIcon,
   PlotBoxIcon,
   PlotBubblesIcon,
