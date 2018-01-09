@@ -1,5 +1,5 @@
 import React from 'react';
-const SankeyIcon = ({ className, children, ...props }) => {
+const PlotSankeyIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const SankeyIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default SankeyIcon;
+export default PlotSankeyIcon;
