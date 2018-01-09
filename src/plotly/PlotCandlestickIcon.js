@@ -1,5 +1,5 @@
 import React from 'react';
-const PlotCandleIcon = ({ className, children, ...props }) => {
+const PlotCandlestickIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const PlotCandleIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default PlotCandleIcon;
+export default PlotCandlestickIcon;

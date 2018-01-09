@@ -113,217 +113,58 @@ import NotebookIpIcon from './plotly/NotebookIpIcon';
 import NotebookMIconIcon from './plotly/NotebookMIconIcon';
 import NotebookRIcon from './plotly/NotebookRIcon';
 import PanIcon from './plotly/PanIcon';
-import Plot2dHistIcon from './plotly/Plot2dHistIcon';
-import Plot2dHistogramIcon from './plotly/Plot2dHistogramIcon';
-import Plot3dLineIcon from './plotly/Plot3dLineIcon';
-import Plot3dScatterIcon from './plotly/Plot3dScatterIcon';
-import Plot3dSurfaceIcon from './plotly/Plot3dSurfaceIcon';
+import ScriptIcon from './plotly/ScriptIcon';
+import SpikelineIcon from './plotly/SpikelineIcon';
+import TooltipBasicIcon from './plotly/TooltipBasicIcon';
+import TooltipCompareIcon from './plotly/TooltipCompareIcon';
+import ZoomMinusIcon from './plotly/ZoomMinusIcon';
+import ZoomPlusIcon from './plotly/ZoomPlusIcon';
+import ZoomboxIcon from './plotly/ZoomboxIcon';
+import PlotIcon from './plotly/PlotIcon';
+
+// Plotly.js plot icons
 import PlotAreaIcon from './plotly/PlotAreaIcon';
-import PlotAreaStackedIcon from './plotly/PlotAreaStackedIcon';
-import PlotBarAxesIcon from './plotly/PlotBarAxesIcon';
 import PlotBarIcon from './plotly/PlotBarIcon';
 import PlotBoxIcon from './plotly/PlotBoxIcon';
-import PlotBubblesIcon from './plotly/PlotBubblesIcon';
-import PlotCandleIcon from './plotly/PlotCandleIcon';
+import PlotCandlestickIcon from './plotly/PlotCandlestickIcon';
 import PlotCarpetIcon from './plotly/PlotCarpetIcon';
 import PlotChoroplethIcon from './plotly/PlotChoroplethIcon';
 import PlotContourIcon from './plotly/PlotContourIcon';
+import PlotHeatmapIcon from './plotly/PlotHeatmapIcon';
+import PlotHistogram2dIcon from './plotly/PlotHistogram2dIcon';
+import PlotHistogramIcon from './plotly/PlotHistogramIcon';
+import PlotMesh3dIcon from './plotly/PlotMesh3dIcon';
+import PlotOhlcIcon from './plotly/PlotOhlcIcon';
+import PlotParcoordsIcon from './plotly/PlotParcoordsIcon';
+import PlotPieIcon from './plotly/PlotPieIcon';
+import PlotSankeyIcon from './plotly/PlotSankeyIcon';
+import PlotScatter3dIcon from './plotly/PlotScatter3dIcon';
+import PlotScatterIcon from './plotly/PlotScatterIcon';
+import PlotScattermapboxIcon from './plotly/PlotScattermapboxIcon';
+import PlotScatterternaryIcon from './plotly/PlotScatterternaryIcon';
+import PlotSurfaceIcon from './plotly/PlotSurfaceIcon';
+
+// custom editor plot icons
+import Plot2dHistIcon from './plotly/Plot2dHistIcon';
+import Plot3dLineIcon from './plotly/Plot3dLineIcon';
+import PlotAreaStackedIcon from './plotly/PlotAreaStackedIcon';
+import PlotBarAxesIcon from './plotly/PlotBarAxesIcon';
+import PlotBubblesIcon from './plotly/PlotBubblesIcon';
 import PlotCountryLineChartIcon from './plotly/PlotCountryLineChartIcon';
 import PlotDHistogramBricksIcon from './plotly/PlotDHistogramBricksIcon';
 import PlotDonutIcon from './plotly/PlotDonutIcon';
 import PlotErrorBarsIcon from './plotly/PlotErrorBarsIcon';
 import PlotFitIcon from './plotly/PlotFitIcon';
-import PlotHeatmapIcon from './plotly/PlotHeatmapIcon';
-import PlotHistogramIcon from './plotly/PlotHistogramIcon';
-import PlotIcon from './plotly/PlotIcon';
 import PlotLineIcon from './plotly/PlotLineIcon';
 import PlotLineMarkersIcon from './plotly/PlotLineMarkersIcon';
-import PlotMapboxIcon from './plotly/PlotMapboxIcon';
-import PlotMesh3dIcon from './plotly/PlotMesh3dIcon';
-import PlotOhlcIcon from './plotly/PlotOhlcIcon';
-import PlotParcoordsIcon from './plotly/PlotParcoordsIcon';
-import PlotPieIcon from './plotly/PlotPieIcon';
 import PlotPieShadedIcon from './plotly/PlotPieShadedIcon';
 import PlotRadarIcon from './plotly/PlotRadarIcon';
 import PlotScatterAxesIcon from './plotly/PlotScatterAxesIcon';
 import PlotScatterChartIcon from './plotly/PlotScatterChartIcon';
-import PlotScatterIcon from './plotly/PlotScatterIcon';
 import PlotScatterMatrixIcon from './plotly/PlotScatterMatrixIcon';
 import PlotStackedAreaIcon from './plotly/PlotStackedAreaIcon';
 import PlotTernaryContourIcon from './plotly/PlotTernaryContourIcon';
-import PlotTernaryScatterIcon from './plotly/PlotTernaryScatterIcon';
 import PlotTimeSeriesIcon from './plotly/PlotTimeSeriesIcon';
-import SankeyIcon from './plotly/SankeyIcon';
-import ScriptIcon from './plotly/ScriptIcon';
-import SpikelineIcon from './plotly/SpikelineIcon';
-import TooltipBasicIcon from './plotly/TooltipBasicIcon';
-import TooltipCompareIcon from './plotly/TooltipCompareIcon';
-import ZoomboxIcon from './plotly/ZoomboxIcon';
-import ZoomMinusIcon from './plotly/ZoomMinusIcon';
-import ZoomPlusIcon from './plotly/ZoomPlusIcon';
-
-export const All = [
-  AccountIcon,
-  AngleDownIcon,
-  AngleLeftIcon,
-  AngleRightIcon,
-  AngleUpIcon,
-  AnimationIcon,
-  ArrowDownIcon,
-  ArrowLeftIcon,
-  ArrowRightIcon,
-  ArrowUpIcon,
-  AutoscaleIcon,
-  BarsIcon,
-  BellIcon,
-  BookmarkIcon,
-  CarretDownIcon,
-  CarretUpIcon,
-  ChartLineIcon,
-  ChatIcon,
-  ChatOutlineIcon,
-  CheckboxMarkedOutlineIcon,
-  CheckIcon,
-  CloseIcon,
-  CloudIcon,
-  CodeBracesIcon,
-  CogIcon,
-  CollaboratorIcon,
-  ContentCopyIcon,
-  CreditCardIcon,
-  DownloadIcon,
-  EditIcon,
-  EmbedIconIcon,
-  EnvelopeIcon,
-  EnvelopeOutlineIcon,
-  ExternalLinkIcon,
-  FacebookIcon,
-  FileDocumentIcon,
-  FileIcon,
-  FileMultipleIcon,
-  FilingCabinetIcon,
-  FilterIcon,
-  FolderIcon,
-  FolderOpenIcon,
-  ForkEditIcon,
-  ForkIcon,
-  FormatAlignCenterIcon,
-  FormatAlignLeftIcon,
-  FormatAlignRightIcon,
-  FullViewIcon,
-  GearsSettingIcon,
-  GitHubIcon,
-  GlobeIcon,
-  GooglePlusIcon,
-  GraphIcon,
-  GridIcon,
-  HeartIcon,
-  ImportIcon,
-  InboxArrowIcon,
-  InboxIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  LinkIcon,
-  LinkVariantIcon,
-  ListViewIcon,
-  LockIcon,
-  LogoAmexIcon,
-  LogoMastercardIcon,
-  LogoStripeIcon,
-  LogoVisaIcon,
-  MinusIcon,
-  NotebookIpIcon,
-  NotebookMIconIcon,
-  NotebookRIcon,
-  OfficeIcon,
-  PanIcon,
-  PhoneIcon,
-  PlayIcon,
-  Plot2dHistIcon,
-  Plot2dHistogramIcon,
-  Plot3dLineIcon,
-  Plot3dScatterIcon,
-  Plot3dSurfaceIcon,
-  PlotAreaIcon,
-  PlotAreaStackedIcon,
-  PlotBarAxesIcon,
-  PlotBarIcon,
-  PlotBoxIcon,
-  PlotBubblesIcon,
-  PlotCandleIcon,
-  PlotCarpetIcon,
-  PlotChoroplethIcon,
-  PlotContourIcon,
-  PlotCountryLineChartIcon,
-  PlotDHistogramBricksIcon,
-  PlotDonutIcon,
-  PlotErrorBarsIcon,
-  PlotFitIcon,
-  PlotHeatmapIcon,
-  PlotHistogramIcon,
-  PlotIcon,
-  PlotLineIcon,
-  PlotLineMarkersIcon,
-  PlotMapboxIcon,
-  PlotMesh3dIcon,
-  PlotOhlcIcon,
-  PlotParcoordsIcon,
-  PlotPieIcon,
-  PlotPieShadedIcon,
-  PlotRadarIcon,
-  PlotScatterAxesIcon,
-  PlotScatterChartIcon,
-  PlotScatterIcon,
-  PlotScatterMatrixIcon,
-  PlotStackedAreaIcon,
-  PlotTernaryContourIcon,
-  PlotTernaryScatterIcon,
-  PlotTimeSeriesIcon,
-  PlusIcon,
-  QuestionIcon,
-  RecentIcon,
-  RefreshIcon,
-  ReorderHorizontalIcon,
-  ReorderVerticalIcon,
-  ResizeDownIcon,
-  ResizeUpIcon,
-  RevisionsIcon,
-  RotateLeftIcon,
-  RotateRightIcon,
-  SankeyIcon,
-  SaveIcon,
-  ScriptIcon,
-  SearchIcon,
-  ShareIcon,
-  ShareVariantIcon,
-  SignOutIcon,
-  SpikelineIcon,
-  SquareIcon,
-  StarIcon,
-  SuitcaseIcon,
-  TableIcon,
-  TagIcon,
-  TagOutlineIcon,
-  TalkChatIcon,
-  TalkChatMultipleIcon,
-  TeamIcon,
-  ThemeIcon,
-  ThumnailViewIcon,
-  TooltipBasicIcon,
-  TooltipCompareIcon,
-  TooltipIcon,
-  TooltipTextIcon,
-  TrashIcon,
-  TwitterIcon,
-  UnlockIcon,
-  UploadFileIcon,
-  UploadIcon,
-  VideoIcon,
-  WrenchIcon,
-  ZoomboxIcon,
-  ZoomMinusIcon,
-  ZoomPlusIcon,
-];
 
 export {
   AccountIcon,
@@ -345,8 +186,8 @@ export {
   ChartLineIcon,
   ChatIcon,
   ChatOutlineIcon,
-  CheckboxMarkedOutlineIcon,
   CheckIcon,
+  CheckboxMarkedOutlineIcon,
   CloseIcon,
   CloudIcon,
   CodeBracesIcon,
@@ -385,9 +226,9 @@ export {
   InboxArrowIcon,
   InboxIcon,
   InstagramIcon,
-  LinkedInIcon,
   LinkIcon,
   LinkVariantIcon,
+  LinkedInIcon,
   ListViewIcon,
   LockIcon,
   LogoAmexIcon,
@@ -403,17 +244,14 @@ export {
   PhoneIcon,
   PlayIcon,
   Plot2dHistIcon,
-  Plot2dHistogramIcon,
   Plot3dLineIcon,
-  Plot3dScatterIcon,
-  Plot3dSurfaceIcon,
   PlotAreaIcon,
   PlotAreaStackedIcon,
   PlotBarAxesIcon,
   PlotBarIcon,
   PlotBoxIcon,
   PlotBubblesIcon,
-  PlotCandleIcon,
+  PlotCandlestickIcon,
   PlotCarpetIcon,
   PlotChoroplethIcon,
   PlotContourIcon,
@@ -423,24 +261,28 @@ export {
   PlotErrorBarsIcon,
   PlotFitIcon,
   PlotHeatmapIcon,
+  PlotHistogram2dIcon,
   PlotHistogramIcon,
   PlotIcon,
   PlotLineIcon,
   PlotLineMarkersIcon,
-  PlotMapboxIcon,
   PlotMesh3dIcon,
   PlotOhlcIcon,
   PlotParcoordsIcon,
   PlotPieIcon,
   PlotPieShadedIcon,
   PlotRadarIcon,
+  PlotSankeyIcon,
+  PlotScatter3dIcon,
   PlotScatterAxesIcon,
   PlotScatterChartIcon,
   PlotScatterIcon,
   PlotScatterMatrixIcon,
+  PlotScattermapboxIcon,
+  PlotScatterternaryIcon,
   PlotStackedAreaIcon,
+  PlotSurfaceIcon,
   PlotTernaryContourIcon,
-  PlotTernaryScatterIcon,
   PlotTimeSeriesIcon,
   PlusIcon,
   QuestionIcon,
@@ -453,7 +295,6 @@ export {
   RevisionsIcon,
   RotateLeftIcon,
   RotateRightIcon,
-  SankeyIcon,
   SaveIcon,
   ScriptIcon,
   SearchIcon,
@@ -483,7 +324,7 @@ export {
   UploadIcon,
   VideoIcon,
   WrenchIcon,
-  ZoomboxIcon,
   ZoomMinusIcon,
   ZoomPlusIcon,
+  ZoomboxIcon,
 };
