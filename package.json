@@ -1,12 +1,11 @@
 {
   "name": "plotly-icons",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "set of plotly icons",
   "main": "lib/index.js",
   "scripts": {
     "generate": "yarn run clean && node scripts/generate.js",
-    "clean": "rimraf build && rimraf src/plotly/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf lib && rimraf src/plotly/*.js",
     "prepublishOnly": "mkdirp lib && yarn generate && babel src --out-dir lib"
   },
   "repository": {
