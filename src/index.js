@@ -172,7 +172,6 @@ import PlotTernaryContourIcon from 'plotly/PlotTernaryContourIcon';
 import PlotTimeSeriesIcon from 'plotly/PlotTimeSeriesIcon';
 import PlotViolinIcon from 'plotly/PlotViolinIcon';
 
-// end mdi
 export {
   AccountIcon,
   AngleDownIcon,
