@@ -1,5 +1,5 @@
 import React from 'react';
-const PlotDHistogramBricksIcon = ({ className, children, ...props }) => {
+const Plot2dHistogramBricksIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const PlotDHistogramBricksIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default PlotDHistogramBricksIcon;
+export default Plot2dHistogramBricksIcon;
