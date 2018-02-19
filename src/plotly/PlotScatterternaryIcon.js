@@ -1,5 +1,5 @@
 import React from 'react';
-const PlotScatterTernaryIcon = ({ className, children, ...props }) => {
+const PlotScatterternaryIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const PlotScatterTernaryIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default PlotScatterTernaryIcon;
+export default PlotScatterternaryIcon;

@@ -1,5 +1,5 @@
 import React from 'react';
-const Plot3dTubeIcon = ({ className, children, ...props }) => {
+const PlotTube3dIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const Plot3dTubeIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default Plot3dTubeIcon;
+export default PlotTube3dIcon;

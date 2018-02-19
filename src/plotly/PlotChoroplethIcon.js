@@ -1,5 +1,5 @@
 import React from 'react';
-const PlotMapChoroplethIcon = ({ className, children, ...props }) => {
+const PlotChoroplethIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const PlotMapChoroplethIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default PlotMapChoroplethIcon;
+export default PlotChoroplethIcon;

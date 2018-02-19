@@ -1,5 +1,5 @@
 import React from 'react';
-const Plot3dMeshIcon = ({ className, children, ...props }) => {
+const PlotMesh3dIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const Plot3dMeshIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default Plot3dMeshIcon;
+export default PlotMesh3dIcon;
