@@ -1,5 +1,5 @@
 import React from 'react';
-const PlotCountryLineChartIcon = ({ className, children, ...props }) => {
+const PlotMapLineIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
@@ -8,4 +8,4 @@ const PlotCountryLineChartIcon = ({ className, children, ...props }) => {
     </svg>
   );
 };
-export default PlotCountryLineChartIcon;
+export default PlotMapLineIcon;

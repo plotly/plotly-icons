@@ -21,7 +21,7 @@ for (let svgFile of svgFiles) {
   const height = heightRegex.exec(content);
   const viewBox = viewBoxRegex.exec(content);
   const path = pathMatches && pathMatches[1];
-  // Skip on empty path
+
   if (!path) continue;
 
   const fileContent = `import React from 'react';

@@ -3,8 +3,8 @@ const PlotHistogram2dIcon = ({ className, children, ...props }) => {
   let classes = 'plotly-icon';
   if (className) classes += ` ${className}`;
   return (
-    <svg {...props} width="24" height="16" viewBox="0 0 24 16" className={classes}>
-      <path d="M 24,8.003L 20,8.003L 20,4L 16.004,4L 16.004,0L 8.021,0L 8.021,4L 4,4L 4,4.006L0,4.006L0,8.013L 4,8.013L 4,8.516L 4.003,8.516L 4.003,11.999L 8,11.999L 8,16L 15.979,16L 15.979,11.999L 24,11.999 z" />
+    <svg {...props} width="32" height="32" viewBox="0 0 32 32" className={classes}>
+      <path d="M32 16h-5.313v-5.313h-5.375v-5.375h-10.625v5.375h-10.688v5.313h5.313v5.313h5.375v5.375h10.625v-5.375h10.688z" />
     </svg>
   );
 };
