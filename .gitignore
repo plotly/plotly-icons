@@ -9,3 +9,5 @@ publish/*
 .DS_Store
 preview
 preview/*
+yarn.lock
+package-lock.json
