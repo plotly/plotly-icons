@@ -6,7 +6,8 @@
     "url": "https://github.com/plotly/plotly-icons/issues"
   },
   "dependencies": {
-    "mdi-react": "^2.1.19"
+    "mdi-react": "^2.1.19",
+    "prop-types": "^15.6.1",
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
@@ -16,9 +17,10 @@
     "babel-preset-react": "^6.11.1",
     "fs": "0.0.1-security",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.6.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-svg-components-generator": "^0.1.0",
+    "rimraf": "^2.6.1"
   },
   "peerDependencies": {
     "react": ">15",
@@ -34,6 +36,6 @@
   "scripts": {
     "clean": "rimraf lib && rimraf src/plotly/*.js",
     "generate": "yarn run clean && node scripts/generate.js",
-    "prepublishOnly": "mkdirp lib && yarn generate && babel src --out-dir lib"
+    "prepublishOnly": "mkdirp lib && babel src --out-dir lib"
   }
 }

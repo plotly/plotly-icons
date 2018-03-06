@@ -98,79 +98,108 @@ import UploadIcon from 'mdi-react/UploadIcon';
 import VideoIcon from 'mdi-react/VideoIcon';
 import WrenchIcon from 'mdi-react/WrenchIcon';
 
-// Plotly Custom Icons (non-plot)
-import AutoscaleIcon from './plotly/AutoscaleIcon';
-import EmbedIconIcon from './plotly/EmbedIconIcon';
-import FilingCabinetIcon from './plotly/FilingCabinetIcon';
-import ForkEditIcon from './plotly/ForkEditIcon';
-import ForkIcon from './plotly/ForkIcon';
-import GearsSettingIcon from './plotly/GearsSettingIcon';
-import LogoAmexIcon from './plotly/LogoAmexIcon';
-import LogoMastercardIcon from './plotly/LogoMastercardIcon';
-import LogoStripeIcon from './plotly/LogoStripeIcon';
-import LogoVisaIcon from './plotly/LogoVisaIcon';
-import NotebookIpIcon from './plotly/NotebookIpIcon';
-import NotebookMIconIcon from './plotly/NotebookMIconIcon';
-import NotebookRIcon from './plotly/NotebookRIcon';
-import PanIcon from './plotly/PanIcon';
-import ScriptIcon from './plotly/ScriptIcon';
-import SpikelineIcon from './plotly/SpikelineIcon';
-import TooltipBasicIcon from './plotly/TooltipBasicIcon';
-import TooltipCompareIcon from './plotly/TooltipCompareIcon';
-import ZoomboxIcon from './plotly/ZoomboxIcon';
-import ZoomMinusIcon from './plotly/ZoomMinusIcon';
-import ZoomPlusIcon from './plotly/ZoomPlusIcon';
 
-// Plotly plot icons
-import PlotAreaIcon from './plotly/PlotAreaIcon';
-import PlotAreaStackedIcon from './plotly/PlotAreaStackedIcon';
-import PlotBarAxesIcon from './plotly/PlotBarAxesIcon';
-import PlotBarIcon from './plotly/PlotBarIcon';
-import PlotBoxIcon from './plotly/PlotBoxIcon';
-import PlotBubblesIcon from './plotly/PlotBubblesIcon';
-import PlotCandlestickAltIcon from './plotly/PlotCandlestickAltIcon';
-import PlotCandlestickIcon from './plotly/PlotCandlestickIcon';
-import PlotCarpetIcon from './plotly/PlotCarpetIcon';
-import PlotChoroplethIcon from './plotly/PlotChoroplethIcon';
-import PlotCone3dIcon from './plotly/PlotCone3dIcon';
-import PlotContourIcon from './plotly/PlotContourIcon';
-import PlotDonutIcon from './plotly/PlotDonutIcon';
-import PlotErrorBarsIcon from './plotly/PlotErrorBarsIcon';
-import PlotFitIcon from './plotly/PlotFitIcon';
-import PlotHeatmapIcon from './plotly/PlotHeatmapIcon';
-import PlotHistogram2dBricksIcon from './plotly/PlotHistogram2dBricksIcon';
-import PlotHistogram2dIcon from './plotly/PlotHistogram2dIcon';
-import PlotHistogramIcon from './plotly/PlotHistogramIcon';
-import PlotIcon from './plotly/PlotIcon';
-import PlotIsosurface3dIcon from './plotly/PlotIsosurface3dIcon';
-import PlotLine3dIcon from './plotly/PlotLine3dIcon';
-import PlotLineIcon from './plotly/PlotLineIcon';
-import PlotLineMarkersIcon from './plotly/PlotLineMarkersIcon';
-import PlotMapLineIcon from './plotly/PlotMapLineIcon';
-import PlotMesh3dIcon from './plotly/PlotMesh3dIcon';
-import PlotOhlcIcon from './plotly/PlotOhlcIcon';
-import PlotParcoordsIcon from './plotly/PlotParcoordsIcon';
-import PlotPieIcon from './plotly/PlotPieIcon';
-import PlotPieShadedIcon from './plotly/PlotPieShadedIcon';
-import PlotPolarFilledIcon from './plotly/PlotPolarFilledIcon';
-import PlotRadarIcon from './plotly/PlotRadarIcon';
-import PlotSankeyIcon from './plotly/PlotSankeyIcon';
-import PlotScatter3dIcon from './plotly/PlotScatter3dIcon';
-import PlotScatterAxesIcon from './plotly/PlotScatterAxesIcon';
-import PlotScatterChartIcon from './plotly/PlotScatterChartIcon';
-import PlotScattergeoIcon from './plotly/PlotScattergeoIcon';
-import PlotScatterIcon from './plotly/PlotScatterIcon';
-import PlotScattermapboxIcon from './plotly/PlotScattermapboxIcon';
-import PlotScatterMatrixIcon from './plotly/PlotScatterMatrixIcon';
-import PlotScatterpolarIcon from './plotly/PlotScatterpolarIcon';
-import PlotScatterternaryIcon from './plotly/PlotScatterternaryIcon';
-import PlotStackedAreaIcon from './plotly/PlotStackedAreaIcon';
-import PlotSurfaceIcon from './plotly/PlotSurfaceIcon';
-import PlotTernaryContourIcon from './plotly/PlotTernaryContourIcon';
-import PlotTimeSeriesIcon from './plotly/PlotTimeSeriesIcon';
-import PlotTube3dIcon from './plotly/PlotTube3dIcon';
-import PlotViolinIcon from './plotly/PlotViolinIcon';
-import PlotVolume3dIcon from './plotly/PlotVolume3dIcon';
+import AutoscaleIcon from './components/AutoscaleIcon.js';
+import EmbedIconIcon from './components/EmbedIconIcon.js';
+import FilingCabinetIcon from './components/FilingCabinetIcon.js';
+import ForkEditIcon from './components/ForkEditIcon.js';
+import ForkIcon from './components/ForkIcon.js';
+import GearsSettingIcon from './components/GearsSettingIcon.js';
+import LogoAmexIcon from './components/LogoAmexIcon.js';
+import LogoMastercardIcon from './components/LogoMastercardIcon.js';
+import LogoStripeIcon from './components/LogoStripeIcon.js';
+import LogoVisaIcon from './components/LogoVisaIcon.js';
+import NotebookIpIcon from './components/NotebookIpIcon.js';
+import NotebookMIconIcon from './components/NotebookMIconIcon.js';
+import NotebookRIcon from './components/NotebookRIcon.js';
+import PanIcon from './components/PanIcon.js';
+import PlotAreaIcon from './components/PlotAreaIcon.js';
+import PlotAreaStackedIcon from './components/PlotAreaStackedIcon.js';
+import PlotBarAxesIcon from './components/PlotBarAxesIcon.js';
+import PlotBarIcon from './components/PlotBarIcon.js';
+import PlotBoxIcon from './components/PlotBoxIcon.js';
+import PlotBubblesIcon from './components/PlotBubblesIcon.js';
+import PlotCandlestickAltIcon from './components/PlotCandlestickAltIcon.js';
+import PlotCandlestickIcon from './components/PlotCandlestickIcon.js';
+import PlotCarpetIcon from './components/PlotCarpetIcon.js';
+import PlotChoroplethIcon from './components/PlotChoroplethIcon.js';
+import PlotCone3DIcon from './components/PlotCone3DIcon.js';
+import PlotContourIcon from './components/PlotContourIcon.js';
+import PlotDonutIcon from './components/PlotDonutIcon.js';
+import PlotErrorBarsIcon from './components/PlotErrorBarsIcon.js';
+import PlotFitIcon from './components/PlotFitIcon.js';
+import PlotHeatmapIcon from './components/PlotHeatmapIcon.js';
+import PlotHistogram2DBricksIcon from './components/PlotHistogram2DBricksIcon.js';
+import PlotHistogram2DIcon from './components/PlotHistogram2DIcon.js';
+import PlotHistogramIcon from './components/PlotHistogramIcon.js';
+import PlotIcon from './components/PlotIcon.js';
+import PlotIsosurface3DIcon from './components/PlotIsosurface3DIcon.js';
+import PlotLine3DIcon from './components/PlotLine3DIcon.js';
+import PlotLineIcon from './components/PlotLineIcon.js';
+import PlotLineMarkersIcon from './components/PlotLineMarkersIcon.js';
+import PlotMapLineIcon from './components/PlotMapLineIcon.js';
+import PlotMesh3DIcon from './components/PlotMesh3DIcon.js';
+import PlotOhlcIcon from './components/PlotOhlcIcon.js';
+import PlotParcoordsIcon from './components/PlotParcoordsIcon.js';
+import PlotPieIcon from './components/PlotPieIcon.js';
+import PlotPieShadedIcon from './components/PlotPieShadedIcon.js';
+import PlotPolarFilledIcon from './components/PlotPolarFilledIcon.js';
+import PlotRadarIcon from './components/PlotRadarIcon.js';
+import PlotSankeyIcon from './components/PlotSankeyIcon.js';
+import PlotScatter3DIcon from './components/PlotScatter3DIcon.js';
+import PlotScatterAxesIcon from './components/PlotScatterAxesIcon.js';
+import PlotScatterChartIcon from './components/PlotScatterChartIcon.js';
+import PlotScatterIcon from './components/PlotScatterIcon.js';
+import PlotScatterMatrixIcon from './components/PlotScatterMatrixIcon.js';
+import PlotScattergeoIcon from './components/PlotScattergeoIcon.js';
+import PlotScattermapboxIcon from './components/PlotScattermapboxIcon.js';
+import PlotScatterpolarIcon from './components/PlotScatterpolarIcon.js';
+import PlotScatterternaryIcon from './components/PlotScatterternaryIcon.js';
+import PlotStackedAreaIcon from './components/PlotStackedAreaIcon.js';
+import PlotSurfaceIcon from './components/PlotSurfaceIcon.js';
+import PlotTernaryContourIcon from './components/PlotTernaryContourIcon.js';
+import PlotTimeSeriesIcon from './components/PlotTimeSeriesIcon.js';
+import PlotTube3DIcon from './components/PlotTube3DIcon.js';
+import PlotViolinIcon from './components/PlotViolinIcon.js';
+import PlotVolume3DIcon from './components/PlotVolume3DIcon.js';
+import ScriptIcon from './components/ScriptIcon.js';
+import SpikelineIcon from './components/SpikelineIcon.js';
+import TooltipBasicIcon from './components/TooltipBasicIcon.js';
+import TooltipCompareIcon from './components/TooltipCompareIcon.js';
+import TraceTypeAnimationIcon from './components/TraceTypeAnimationColoredIcon.js';
+import TraceTypeAreaIcon from './components/TraceTypeAreaColoredIcon.js';
+import TraceTypeBarIcon from './components/TraceTypeBarColoredIcon.js';
+import TraceTypeBoxIcon from './components/TraceTypeBoxColoredIcon.js';
+import TraceTypeCandlestickIcon from './components/TraceTypeCandlestickColoredIcon.js';
+import TraceTypeCarpetIcon from './components/TraceTypeCarpetColoredIcon.js';
+import TraceTypeChoroplethIcon from './components/TraceTypeChoroplethColoredIcon.js';
+import TraceTypeContourIcon from './components/TraceTypeContourColoredIcon.js';
+import TraceTypeErrorBarsIcon from './components/TraceTypeErrorBarsColoredIcon.js';
+import TraceTypeHeatmapIcon from './components/TraceTypeHeatmapColoredIcon.js';
+import TraceTypeHistogram2DIcon from './components/TraceTypeHistogram2DColoredIcon.js';
+import TraceTypeHistogram2DcontourIcon from './components/TraceTypeHistogram2DcontourColoredIcon.js';
+import TraceTypeHistogramIcon from './components/TraceTypeHistogramColoredIcon.js';
+import TraceTypeLine3DIcon from './components/TraceTypeLine3DColoredIcon.js';
+import TraceTypeLineIcon from './components/TraceTypeLineColoredIcon.js';
+import TraceTypeMesh3DIcon from './components/TraceTypeMesh3DColoredIcon.js';
+import TraceTypeOhlcIcon from './components/TraceTypeOhlcColoredIcon.js';
+import TraceTypeParcoordsIcon from './components/TraceTypeParcoordsColoredIcon.js';
+import TraceTypePieIcon from './components/TraceTypePieColoredIcon.js';
+import TraceTypeRangeSliderIcon from './components/TraceTypeRangeSliderColoredIcon.js';
+import TraceTypeSankeyIcon from './components/TraceTypeSankeyColoredIcon.js';
+import TraceTypeScatter3DIcon from './components/TraceTypeScatter3DColoredIcon.js';
+import TraceTypeScatterIcon from './components/TraceTypeScatterColoredIcon.js';
+import TraceTypeScattergeoIcon from './components/TraceTypeScattergeoColoredIcon.js';
+import TraceTypeScattermapboxIcon from './components/TraceTypeScattermapboxColoredIcon.js';
+import TraceTypeScatterpolarIcon from './components/TraceTypeScatterpolarColoredIcon.js';
+import TraceTypeScatterternaryIcon from './components/TraceTypeScatterternaryColoredIcon.js';
+import TraceTypeSurfaceIcon from './components/TraceTypeSurfaceColoredIcon.js';
+import TraceTypeTableIcon from './components/TraceTypeTableColoredIcon.js';
+import TraceTypeTimeSeriesIcon from './components/TraceTypeTimeSeriesColoredIcon.js';
+import TraceTypeViolinIcon from './components/TraceTypeViolinColoredIcon.js';
+import ZoomMinusIcon from './components/ZoomMinusIcon.js';
+import ZoomPlusIcon from './components/ZoomPlusIcon.js';
+import ZoomboxIcon from './components/ZoomboxIcon.js';
 
 export {
   AccountIcon,
@@ -271,6 +300,7 @@ export {
   UploadIcon,
   VideoIcon,
   WrenchIcon,
+
   AutoscaleIcon,
   EmbedIconIcon,
   FilingCabinetIcon,
@@ -295,22 +325,22 @@ export {
   PlotCandlestickIcon,
   PlotCarpetIcon,
   PlotChoroplethIcon,
-  PlotCone3dIcon,
+  PlotCone3DIcon,
   PlotContourIcon,
   PlotDonutIcon,
   PlotErrorBarsIcon,
   PlotFitIcon,
   PlotHeatmapIcon,
-  PlotHistogram2dBricksIcon,
-  PlotHistogram2dIcon,
+  PlotHistogram2DBricksIcon,
+  PlotHistogram2DIcon,
   PlotHistogramIcon,
   PlotIcon,
-  PlotIsosurface3dIcon,
-  PlotLine3dIcon,
+  PlotIsosurface3DIcon,
+  PlotLine3DIcon,
   PlotLineIcon,
   PlotLineMarkersIcon,
   PlotMapLineIcon,
-  PlotMesh3dIcon,
+  PlotMesh3DIcon,
   PlotOhlcIcon,
   PlotParcoordsIcon,
   PlotPieIcon,
@@ -318,27 +348,58 @@ export {
   PlotPolarFilledIcon,
   PlotRadarIcon,
   PlotSankeyIcon,
-  PlotScatter3dIcon,
+  PlotScatter3DIcon,
   PlotScatterAxesIcon,
   PlotScatterChartIcon,
-  PlotScattergeoIcon,
   PlotScatterIcon,
-  PlotScattermapboxIcon,
   PlotScatterMatrixIcon,
+  PlotScattergeoIcon,
+  PlotScattermapboxIcon,
   PlotScatterpolarIcon,
   PlotScatterternaryIcon,
   PlotStackedAreaIcon,
   PlotSurfaceIcon,
   PlotTernaryContourIcon,
   PlotTimeSeriesIcon,
-  PlotTube3dIcon,
+  PlotTube3DIcon,
   PlotViolinIcon,
-  PlotVolume3dIcon,
+  PlotVolume3DIcon,
   ScriptIcon,
   SpikelineIcon,
   TooltipBasicIcon,
   TooltipCompareIcon,
-  ZoomboxIcon,
+  TraceTypeAnimationIcon,
+  TraceTypeAreaIcon,
+  TraceTypeBarIcon,
+  TraceTypeBoxIcon,
+  TraceTypeCandlestickIcon,
+  TraceTypeCarpetIcon,
+  TraceTypeChoroplethIcon,
+  TraceTypeContourIcon,
+  TraceTypeErrorBarsIcon,
+  TraceTypeHeatmapIcon,
+  TraceTypeHistogram2DIcon,
+  TraceTypeHistogram2DcontourIcon,
+  TraceTypeHistogramIcon,
+  TraceTypeLine3DIcon,
+  TraceTypeLineIcon,
+  TraceTypeMesh3DIcon,
+  TraceTypeOhlcIcon,
+  TraceTypeParcoordsIcon,
+  TraceTypePieIcon,
+  TraceTypeRangeSliderIcon,
+  TraceTypeSankeyIcon,
+  TraceTypeScatter3DIcon,
+  TraceTypeScatterIcon,
+  TraceTypeScattergeoIcon,
+  TraceTypeScattermapboxIcon,
+  TraceTypeScatterpolarIcon,
+  TraceTypeScatterternaryIcon,
+  TraceTypeSurfaceIcon,
+  TraceTypeTableIcon,
+  TraceTypeTimeSeriesIcon,
+  TraceTypeViolinIcon,
   ZoomMinusIcon,
   ZoomPlusIcon,
+  ZoomboxIcon,
 };
