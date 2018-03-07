@@ -1,0 +1,20 @@
+{
+  "name": "plotly-icons-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "next": "^5.0.0",
+    "plotly-icons": "^1.1.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  },
+  "now": {
+    "alias": "plotly-icons.now.sh"
+  }
+}

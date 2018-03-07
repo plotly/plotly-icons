@@ -1,0 +1,10 @@
+import React from 'react';
+import PlotlyIconBase from '{{iconBaseComponentPath}}';
+
+const {{componentName}} = (props) => (
+    <PlotlyIconBase viewBox="{{viewBox}}" {...props}>
+        {{content}}
+    </PlotlyIconBase>
+);
+
+export default {{componentName}};

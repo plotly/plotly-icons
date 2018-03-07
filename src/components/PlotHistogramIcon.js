@@ -1,0 +1,10 @@
+import React from 'react';
+import PlotlyIconBase from './IconBase.js';
+
+const PlotHistogramIcon = (props) => (
+    <PlotlyIconBase viewBox="0 0 24 16" {...props}>
+        <path d="M0 11.015h4.003V16H0zm5-6h4.003V16H5zM10 0h4.011v16H10zm5 5.014h4.004V16H15zm4.996 6.001H24V16h-4.004z"></path>
+    </PlotlyIconBase>
+);
+
+export default PlotHistogramIcon;

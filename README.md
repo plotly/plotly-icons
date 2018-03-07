@@ -2,6 +2,8 @@
 
 > Icon set used with Plotly
 
+Demo: [plotly-icons.now.sh](https://plotly-icons.now.sh/)
+
 ## Usage
 
 * Install the module with `npm install` or `yarn install`.

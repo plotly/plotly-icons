@@ -11,3 +11,5 @@ preview
 preview/*
 yarn.lock
 package-lock.json
+demo/node_modules
+demo/.next
