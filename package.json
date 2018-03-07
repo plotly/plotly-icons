@@ -1,7 +1,7 @@
 {
   "name": "plotly-icons",
   "description": "set of plotly icons",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "author": "Plotly Team",
   "bugs": {
     "url": "https://github.com/plotly/plotly-icons/issues"
@@ -29,10 +29,7 @@
     "svgo": "^0.7.2"
   },
   "homepage": "https://github.com/plotly/plotly-icons#readme",
-  "keywords": [
-    "Icons",
-    "Plotly"
-  ],
+  "keywords": ["Icons", "Plotly"],
   "license": "ISC",
   "main": "lib/index.js",
   "peerDependencies": {
