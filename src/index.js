@@ -80,7 +80,7 @@ import SignOutIcon from 'mdi-react/LogoutIcon';
 import SquareIcon from 'mdi-react/CropSquareIcon';
 import StarIcon from 'mdi-react/StarIcon';
 import SuitcaseIcon from 'mdi-react/BriefcaseIcon';
-import TableIcon from 'mdi-react/TableIcon';
+import PlotTableIcon from 'mdi-react/TableIcon';
 import TagIcon from 'mdi-react/TagIcon';
 import TagOutlineIcon from 'mdi-react/TagOutlineIcon';
 import TalkChatIcon from 'mdi-react/MessageIcon';
@@ -284,7 +284,7 @@ export {
   SquareIcon,
   StarIcon,
   SuitcaseIcon,
-  TableIcon,
+  PlotTableIcon,
   TagIcon,
   TagOutlineIcon,
   TalkChatIcon,
