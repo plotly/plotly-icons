@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 const PlotlyIconBase = ({ children, width, height, style = {}, ...props }) => (
     <svg
         children={children}
-        preserveAspectRatio='xMidYMid meet'
+        fill="currentColor"
+        preserveAspectRatio="xMidYMid meet"
         height={height}
         width={width}
         style={style}
