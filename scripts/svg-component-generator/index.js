@@ -1,3 +1,4 @@
+// forked from https://github.com/toppr/react-svg-components-generator (MIT)
 const path = require('path');
 const glob = require('glob');
 const fs = require('fs-extra');
