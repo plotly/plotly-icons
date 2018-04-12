@@ -7,7 +7,7 @@
     "url": "https://github.com/plotly/plotly-icons/issues"
   },
   "dependencies": {
-    "mdi-react": "^2.1.19",
+    "mdi-react": "^3.0.0",
     "prop-types": "^15.6.1"
   },
   "devDependencies": {
@@ -29,7 +29,10 @@
     "svgo": "^0.7.2"
   },
   "homepage": "https://github.com/plotly/plotly-icons#readme",
-  "keywords": ["Icons", "Plotly"],
+  "keywords": [
+    "Icons",
+    "Plotly"
+  ],
   "license": "ISC",
   "main": "lib/index.js",
   "peerDependencies": {
