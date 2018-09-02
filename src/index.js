@@ -200,6 +200,14 @@ import {
   ZoomMinusIcon,
   ZoomPlusIcon,
   ZoomboxIcon,
+  PlotBarpolarIcon,
+  PlotConeIcon,
+  PlotSplomIcon,
+  PlotStreamtubeIcon,
+  TraceTypeBarpolarIcon,
+  TraceTypeConeIcon,
+  TraceTypeSplomIcon,
+  TraceTypeStreamtubeIcon,
 } from './components';
 
 export {
@@ -402,4 +410,12 @@ export {
   ZoomMinusIcon,
   ZoomPlusIcon,
   ZoomboxIcon,
+  PlotBarpolarIcon,
+  PlotConeIcon,
+  PlotSplomIcon,
+  PlotStreamtubeIcon,
+  TraceTypeBarpolarIcon,
+  TraceTypeConeIcon,
+  TraceTypeSplomIcon,
+  TraceTypeStreamtubeIcon,
 };
