@@ -97,6 +97,7 @@ import UploadFileIcon from 'mdi-react/FileExportIcon';
 import UploadIcon from 'mdi-react/UploadIcon';
 import VideoIcon from 'mdi-react/VideoIcon';
 import WrenchIcon from 'mdi-react/WrenchIcon';
+import CalendarMultiselectIcon from 'mdi-react/CalendarMultiselectIcon';
 
 import {
   AutoscaleIcon,
@@ -225,6 +226,7 @@ export {
   BarsIcon,
   BellIcon,
   BookmarkIcon,
+  CalendarMultiselectIcon,
   CarretDownIcon,
   CarretUpIcon,
   ChartLineIcon,
