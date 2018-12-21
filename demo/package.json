@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "next": "^5.0.0",
-    "plotly-icons": "^1.1.5",
+    "plotly-icons": "latest",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
