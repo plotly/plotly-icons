@@ -5,6 +5,7 @@ import AngleLeftIcon from 'mdi-react/ChevronLeftIcon';
 import AngleRightIcon from 'mdi-react/ChevronRightIcon';
 import AngleUpIcon from 'mdi-react/ChevronUpIcon';
 import AnimationIcon from 'mdi-react/AnimationIcon';
+import ArrangeSendBackwardIcon from 'mdi-react/ArrangeSendBackwardIcon';
 import ArrowDownIcon from 'mdi-react/ArrowDownIcon';
 import ArrowLeftIcon from 'mdi-react/ArrowLeftIcon';
 import ArrowRightIcon from 'mdi-react/ArrowRightIcon';
@@ -12,6 +13,8 @@ import ArrowUpIcon from 'mdi-react/ArrowUpIcon';
 import BarsIcon from 'mdi-react/MenuIcon';
 import BellIcon from 'mdi-react/BellIcon';
 import BookmarkIcon from 'mdi-react/BookmarkIcon';
+import BufferIcon from 'mdi-react/BufferIcon';
+import CalendarMultiselectIcon from 'mdi-react/CalendarMultiselectIcon';
 import CarretDownIcon from 'mdi-react/MenuDownIcon';
 import CarretUpIcon from 'mdi-react/MenuUpIcon';
 import ChartLineIcon from 'mdi-react/ChartLineIcon';
@@ -24,6 +27,7 @@ import CloudIcon from 'mdi-react/CloudIcon';
 import CodeBracesIcon from 'mdi-react/CodeBracesIcon';
 import CogIcon from 'mdi-react/SettingsIcon';
 import CollaboratorIcon from 'mdi-react/AccountMultipleIcon';
+import CollageIcon from 'mdi-react/CollageIcon';
 import ContentCopyIcon from 'mdi-react/ContentCopyIcon';
 import CreditCardIcon from 'mdi-react/CreditCardIcon';
 import DownloadIcon from 'mdi-react/DownloadIcon';
@@ -36,6 +40,8 @@ import FileDocumentIcon from 'mdi-react/FileDocumentIcon';
 import FileIcon from 'mdi-react/FileIcon';
 import FileMultipleIcon from 'mdi-react/FileMultipleIcon';
 import FilterIcon from 'mdi-react/FilterIcon';
+import FlipToBackIcon from 'mdi-react/FlipToBackIcon';
+import FlipToFrontIcon from 'mdi-react/FlipToFrontIcon';
 import FolderIcon from 'mdi-react/FolderIcon';
 import FolderOpenIcon from 'mdi-react/FolderOpenIcon';
 import FormatAlignCenterIcon from 'mdi-react/FormatAlignCenterIcon';
@@ -61,6 +67,7 @@ import MinusIcon from 'mdi-react/MinusIcon';
 import OfficeIcon from 'mdi-react/DomainIcon';
 import PhoneIcon from 'mdi-react/PhoneIcon';
 import PlayIcon from 'mdi-react/PlayIcon';
+import PlotTableIcon from 'mdi-react/TableIcon';
 import PlusIcon from 'mdi-react/PlusIcon';
 import QuestionIcon from 'mdi-react/HelpCircleIcon';
 import RecentIcon from 'mdi-react/ClockIcon';
@@ -80,7 +87,6 @@ import SignOutIcon from 'mdi-react/LogoutIcon';
 import SquareIcon from 'mdi-react/CropSquareIcon';
 import StarIcon from 'mdi-react/StarIcon';
 import SuitcaseIcon from 'mdi-react/BriefcaseIcon';
-import PlotTableIcon from 'mdi-react/TableIcon';
 import TagIcon from 'mdi-react/TagIcon';
 import TagOutlineIcon from 'mdi-react/TagOutlineIcon';
 import TalkChatIcon from 'mdi-react/MessageIcon';
@@ -95,9 +101,11 @@ import TwitterIcon from 'mdi-react/TwitterIcon';
 import UnlockIcon from 'mdi-react/LockOpenIcon';
 import UploadFileIcon from 'mdi-react/FileExportIcon';
 import UploadIcon from 'mdi-react/UploadIcon';
+import VectorDifferenceAbIcon from 'mdi-react/VectorDifferenceAbIcon';
+import VectorDifferenceBaIcon from 'mid-react/VectorDifferenceBaIcon';
+import VectorDifferenceIcon from 'mdi-react/VectorDifferenceIcon';
 import VideoIcon from 'mdi-react/VideoIcon';
 import WrenchIcon from 'mdi-react/WrenchIcon';
-import CalendarMultiselectIcon from 'mdi-react/CalendarMultiselectIcon';
 
 import {
   AutoscaleIcon,
@@ -218,6 +226,7 @@ export {
   AngleRightIcon,
   AngleUpIcon,
   AnimationIcon,
+  ArrangeSendBackwardIcon,
   ArrowDownIcon,
   ArrowLeftIcon,
   ArrowRightIcon,
@@ -226,19 +235,21 @@ export {
   BarsIcon,
   BellIcon,
   BookmarkIcon,
+  BufferIcon,
   CalendarMultiselectIcon,
   CarretDownIcon,
   CarretUpIcon,
   ChartLineIcon,
   ChatIcon,
   ChatOutlineIcon,
-  CheckIcon,
   CheckboxMarkedOutlineIcon,
+  CheckIcon,
   CloseIcon,
   CloudIcon,
   CodeBracesIcon,
   CogIcon,
   CollaboratorIcon,
+  CollageIcon,
   ContentCopyIcon,
   CreditCardIcon,
   DownloadIcon,
@@ -253,6 +264,8 @@ export {
   FileMultipleIcon,
   FilingCabinetIcon,
   FilterIcon,
+  FlipToBackIcon,
+  FlipToFrontIcon,
   FolderIcon,
   FolderOpenIcon,
   ForkEditIcon,
@@ -272,9 +285,9 @@ export {
   InboxArrowIcon,
   InboxIcon,
   InstagramIcon,
+  LinkedInIcon,
   LinkIcon,
   LinkVariantIcon,
-  LinkedInIcon,
   ListViewIcon,
   LockIcon,
   LogoAmexIcon,
@@ -293,6 +306,7 @@ export {
   PlotAreaStackedIcon,
   PlotBarAxesIcon,
   PlotBarIcon,
+  PlotBarpolarIcon,
   PlotBoxIcon,
   PlotBubblesIcon,
   PlotCandlestickAltIcon,
@@ -300,6 +314,7 @@ export {
   PlotCarpetIcon,
   PlotChoroplethIcon,
   PlotCone3dIcon,
+  PlotConeIcon,
   PlotContourIcon,
   PlotDonutIcon,
   PlotErrorBarsIcon,
@@ -325,13 +340,15 @@ export {
   PlotScatter3dIcon,
   PlotScatterAxesIcon,
   PlotScatterChartIcon,
-  PlotScatterIcon,
-  PlotScatterMatrixIcon,
   PlotScattergeoIcon,
+  PlotScatterIcon,
   PlotScattermapboxIcon,
+  PlotScatterMatrixIcon,
   PlotScatterpolarIcon,
   PlotScatterternaryIcon,
+  PlotSplomIcon,
   PlotStackedAreaIcon,
+  PlotStreamtubeIcon,
   PlotSurfaceIcon,
   PlotTableIcon,
   PlotTernaryContourIcon,
@@ -374,15 +391,17 @@ export {
   TraceTypeAnimationIcon,
   TraceTypeAreaIcon,
   TraceTypeBarIcon,
+  TraceTypeBarpolarIcon,
   TraceTypeBoxIcon,
   TraceTypeCandlestickIcon,
   TraceTypeCarpetIcon,
   TraceTypeChoroplethIcon,
+  TraceTypeConeIcon,
   TraceTypeContourIcon,
   TraceTypeErrorBarsIcon,
   TraceTypeHeatmapIcon,
-  TraceTypeHistogram2dIcon,
   TraceTypeHistogram2dcontourIcon,
+  TraceTypeHistogram2dIcon,
   TraceTypeHistogramIcon,
   TraceTypeLine3dIcon,
   TraceTypeLineIcon,
@@ -393,11 +412,13 @@ export {
   TraceTypeRangeSliderIcon,
   TraceTypeSankeyIcon,
   TraceTypeScatter3dIcon,
-  TraceTypeScatterIcon,
   TraceTypeScattergeoIcon,
+  TraceTypeScatterIcon,
   TraceTypeScattermapboxIcon,
   TraceTypeScatterpolarIcon,
   TraceTypeScatterternaryIcon,
+  TraceTypeSplomIcon,
+  TraceTypeStreamtubeIcon,
   TraceTypeSurfaceIcon,
   TraceTypeTableIcon,
   TraceTypeTimeSeriesIcon,
@@ -407,17 +428,12 @@ export {
   UnlockIcon,
   UploadFileIcon,
   UploadIcon,
+  VectorDifferenceAbIcon,
+  VectorDifferenceBaIcon,
+  VectorDifferenceIcon,
   VideoIcon,
   WrenchIcon,
+  ZoomboxIcon,
   ZoomMinusIcon,
   ZoomPlusIcon,
-  ZoomboxIcon,
-  PlotBarpolarIcon,
-  PlotConeIcon,
-  PlotSplomIcon,
-  PlotStreamtubeIcon,
-  TraceTypeBarpolarIcon,
-  TraceTypeConeIcon,
-  TraceTypeSplomIcon,
-  TraceTypeStreamtubeIcon,
 };
