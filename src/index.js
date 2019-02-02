@@ -102,7 +102,7 @@ import UnlockIcon from 'mdi-react/LockOpenIcon';
 import UploadFileIcon from 'mdi-react/FileExportIcon';
 import UploadIcon from 'mdi-react/UploadIcon';
 import VectorDifferenceAbIcon from 'mdi-react/VectorDifferenceAbIcon';
-import VectorDifferenceBaIcon from 'mid-react/VectorDifferenceBaIcon';
+import VectorDifferenceBaIcon from 'mdi-react/VectorDifferenceBaIcon';
 import VectorDifferenceIcon from 'mdi-react/VectorDifferenceIcon';
 import VideoIcon from 'mdi-react/VideoIcon';
 import WrenchIcon from 'mdi-react/WrenchIcon';
