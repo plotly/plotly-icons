@@ -67,6 +67,7 @@ export PlotViolinIcon from './PlotViolinIcon.js';
 export PlotVolume3dIcon from './PlotVolume3dIcon.js';
 export ScriptIcon from './ScriptIcon.js';
 export SpikelineIcon from './SpikelineIcon.js';
+export TemplateBoldIcon from './TemplateBoldIcon.js';
 export TemplateDoubleIcon from './TemplateDoubleIcon.js';
 export TemplateSingleIcon from './TemplateSingleIcon.js';
 export ThemeBrushIcon from './ThemeBrushIcon.js';
