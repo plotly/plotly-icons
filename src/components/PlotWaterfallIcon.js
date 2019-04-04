@@ -3,7 +3,7 @@ import PlotlyIconBase from './IconBase.js';
 
 const PlotWaterfallIcon = (props) => (
     <PlotlyIconBase viewBox="0 0 31.57 27.75" {...props}>
-        <defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:.75px}</style></defs><g id="Layer_2" dataName="Layer 2"><g id="Layer_1-2" dataName="Layer 1"><path class="cls-1" transform="rotate(-90 18.695 24.895)" d="M16.22 12.4h4.96v24.99h-4.96z"></path><path class="cls-1" transform="rotate(-90 9.28 19.14)" d="M7.05 16.06h4.47v6.16H7.05z"></path><path class="cls-1" transform="rotate(-90 10.655 8.335)" d="M8.51-1.93h4.29v20.54H8.51z"></path><path class="cls-1" transform="rotate(-90 16.645 13.805)" d="M14.46 9.53h4.36v8.56h-4.36z"></path><path class="cls-1" transform="rotate(-90 15.785 2.705)" d="M13.46-12.7h4.66v30.81h-4.66z"></path><path class="cls-1" d="M.38 4.99v1.23M20.88 10.47v1.16M6.2 21.4v1.03M12.43 16v.9"></path></g></g>
+        <g dataName="Layer 2"><g fill="currentColor" stroke="currentColor" dataName="Layer 1" strokeMiterlimit="10" strokeWidth=".75"><path d="M6.2 27.37v-4.96h24.99v4.96zM6.2 21.37V16.9h6.16v4.47zM.39 10.48V6.19h20.54v4.29zM12.37 15.99v-4.36h8.56v4.36zM.38 5.03V.37h30.81v4.66zM.38 4.99v1.23M20.88 10.47v1.16M6.2 21.4v1.03M12.43 16v.9"></path></g></g>
     </PlotlyIconBase>
 );
 
