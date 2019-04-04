@@ -139,6 +139,7 @@ import {
   PlotFitIcon,
   PlotHeatmapIcon,
   PlotHistogram2dBricksIcon,
+  PlotHistogram2dcontourIcon,
   PlotHistogram2dIcon,
   PlotHistogramIcon,
   PlotIcon,
