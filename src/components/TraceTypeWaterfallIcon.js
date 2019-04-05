@@ -2,8 +2,8 @@ import React from 'react';
 import PlotlyIconBase from './IconBase.js';
 
 const TraceTypeWaterfallIcon = (props) => (
-    <PlotlyIconBase viewBox="0 0 62.6 59" {...props}>
-        <g dataName="Layer 2"><g dataName="Layer 1"><path fill="#119dff" d="M11.9 59V48.16h50.69V59z"></path><path fill="#09ffff" d="M11.91 45.89v-9.77h12.5v9.77zM.1 22.08v-9.37h41.67v9.37z"></path><path fill="#119dff" d="M24.41 34.12v-9.53h17.36v9.53zM.1 10.7V0h62.5v10.7z"></path><path fill="none" stroke="#2ebfff" d="M11.68 59V36M41.26 34V12.71M.5 22V0M23.9 46V24.71" strokeMiterlimit="10"></path></g></g>
+    <PlotlyIconBase viewBox="0 0 60 60" {...props}>
+        <g dataName="Layer 1-2"><path fill="#119dff" d="M13 18.66h6.27v29.33H13z"></path><path fill="#09ffff" d="M20.59 18.67h5.65v7.23h-5.65zM34.36 11.83h5.42v24.11h-5.42z"></path><path fill="#119dff" d="M27.4 25.9h5.45v10.05H27.4zM40.95 11.83h6.19V48h-6.19z"></path><path fill="none" stroke="#119dff" d="M13 18.53h13.31M27.47 35.65h12.32M34.41 12.06h12.73M20.52 25.61h12.32" strokeMiterlimit="10" strokeWidth=".75"></path></g>
     </PlotlyIconBase>
 );
 
