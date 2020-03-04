@@ -1,8 +1,6 @@
 # plotly-icons
 
-> Icon set used with Plotly
-
-Demo: [plotly-icons.now.sh](https://plotly-icons.now.sh/)
+> Icon set used with Plotly Chart Studio
 
 ## Usage
 
@@ -15,11 +13,6 @@ Demo: [plotly-icons.now.sh](https://plotly-icons.now.sh/)
 1. Export SVG files with "Inline Styles", as the script can't parse classes in svg. Ensure the files don't have fields like `data-name` that seem to be unsupported by React.
 2. Run `npm run generate` to convert SVG icons into React components.
 3. Run `npm run prepublishOnly` and ensure there are no errors.
-
-## See also
-
-* [mdi-react](https://github.com/levrik/mdi-react)
-* [plotly branding documentation](https://brand.plot.ly/)
 
 ## License
 
